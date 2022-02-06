@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyabl"
+version = "0.1.0"
+description = ""
+authors = ["aarnav <aarnavbos@gmail.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+python-lsp-server = "^1.3.3"
+ipdb = "^0.13.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
